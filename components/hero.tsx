@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <img src="/placeholder.svg?height=400&width=500" alt="Web Development Course" className={styles.image} />
+          <img src="/th.jpg?height=400&width=500" alt="Web Development Course" className={styles.image} />
         </div>
       </div>
     </section>
