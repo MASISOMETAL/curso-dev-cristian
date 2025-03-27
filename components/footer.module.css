@@ -1,0 +1,112 @@
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 4rem 1rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.brand {
+  max-width: 300px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.tagline {
+  color: #b3b3b3;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  gap: 4rem;
+}
+
+.linkGroup {
+  min-width: 120px;
+}
+
+.linkTitle {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+}
+
+.linkList li {
+  margin-bottom: 0.75rem;
+}
+
+.linkList a {
+  color: #b3b3b3;
+  transition: color 0.3s ease;
+}
+
+.linkList a:hover {
+  color: var(--primary-color);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  border-top: 1px solid #333;
+}
+
+.copyright {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.legal {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legal a {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.legal a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,130 @@
+.courseModules {
+  padding: 5rem 1rem;
+  background-color: var(--light-gray);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tabsContainer {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--medium-gray);
+}
+
+.tab {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  flex: 1;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: var(--light-gray);
+}
+
+.activeTab {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  background-color: rgba(74, 107, 255, 0.05);
+}
+
+.tabContent {
+  padding: 2rem;
+}
+
+.courseTitle {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.modulesList {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.moduleCard {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--light-gray);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moduleCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.moduleHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.moduleNumber {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.moduleTitle {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.moduleDescription {
+  color: var(--dark-gray);
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab {
+    border-bottom: 1px solid var(--medium-gray);
+  }
+
+  .activeTab {
+    border-bottom: 1px solid var(--medium-gray);
+    border-left: 3px solid var(--primary-color);
+  }
+}
+
