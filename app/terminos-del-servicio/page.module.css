@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.7rem;
+  padding: 2rem 0;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 60%;
+  margin: 0 auto;
+}
+
+.titleArticle {
+  font-weight: 700;
+}

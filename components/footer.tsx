@@ -1,4 +1,5 @@
 import styles from "./footer.module.css"
+import Link from "next/link"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -64,7 +65,7 @@ export default function Footer() {
           <p className={styles.copyright}>&copy; {currentYear} Curso Desarrollo Web. Todos los derechos reservados.</p>
           <div className={styles.legal}>
             <a href="#">Politicas y Privacidad</a>
-            <a href="#">Terminos del Servicio</a>
+            <Link href="/terminos-del-servicio">Terminos del Servicio</Link>
           </div>
         </div>
       </div>
