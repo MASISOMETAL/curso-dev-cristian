@@ -67,25 +67,25 @@ export default function Contact() {
           <div className={styles.contactInfo}>
             <div className={styles.infoItem}>
               <h3 className={styles.infoTitle}>Email</h3>
-              <p className={styles.infoValue}>cristianmasisofarias@gmail.com</p>
+              <p className={styles.infoValueEmail}></p>
             </div>
 
             <div className={styles.infoItem}>
               <h3 className={styles.infoTitle}>Telefono</h3>
-              <p className={styles.infoValue}>+549 115018 2234</p>
+              <p className={styles.infoValueTel}></p>
             </div>
 
             <div className={styles.infoItem}>
               <h3 className={styles.infoTitle}>Redes sociales</h3>
               <div className={styles.socialLinks}>
-                <a href="#" className={styles.socialLink}>
-                  Twitter
-                </a>
-                <a href="#" className={styles.socialLink}>
+                <a href="https://www.linkedin.com/in/cristianmasisofarias/" target="_blank" className={styles.socialLink}>
                   LinkedIn
                 </a>
-                <a href="#" className={styles.socialLink}>
+                <a href="https://github.com/MASISOMETAL" target="_blank" className={styles.socialLink}>
                   GitHub
+                </a>
+                <a href="https://www.youtube.com/@masiso1347" target="_blank" className={styles.socialLink}>
+                  Youtube
                 </a>
               </div>
             </div>

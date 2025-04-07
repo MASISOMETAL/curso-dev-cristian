@@ -54,7 +54,14 @@
   margin-bottom: 0.5rem;
 }
 
-.infoValue {
+.infoValueEmail::after {
+  content: "cristianmasisofarias@gmail.com";
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+}
+
+.infoValueTel::after {
+  content: "+549 115018 2234";
   font-size: 1.1rem;
   color: var(--dark-gray);
 }
